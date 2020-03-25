@@ -1,0 +1,40 @@
+<%- include('templates/header') -%>
+    <h2 class="jumbotron text-center">Linked List</h2>
+    <div class="text-center">
+    <figure class="figure">
+        <img src= "img/linkedlist1.png" alt="Linked List">
+        <figcaption class="figure-caption">A linked list is composed of nodes. A node has two parts: data and a reference to the next node. <br/> 
+        The first node is the <strong>head</strong>. 
+        The last node points to <strong>null.</strong></figcaption>
+    </figure>
+    </div>
+        
+    <p>Linked list is another linear data structure. A linked list, like an array, is also a collection of items.</p> 
+    <p>Instead of being stored in contigious memory locations, elements of a linked list can be stored anywhere in memory.</p>
+    <p></p>
+
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Advantages</th>
+          <th scope="col">Disadvantages</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Useful when the number of objects is unknown</td>
+          <td>Does not allow random access</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Easy to add and delete items</td>
+          <td>Uses more memory than an array</td>
+        </tr>
+      </tbody>
+    </table>
+    <small class="text-muted">
+        This page was last accessed by <%- data.firstName %>  <%- data.lastName %> on <%- data.date%>
+    </small> 
+<%- include('templates/footer') -%>

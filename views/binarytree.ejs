@@ -1,0 +1,22 @@
+<%- include('templates/header') -%>
+
+    <h2 class="jumbotron text-center">Binary Tree</h2>
+    <div class="text-center">
+        <figure class="figure">
+            <img src= "img/binarytree1.png" alt="Binary Tree">
+            <figcaption class="figure-caption">The top node is called the <strong>root.</strong> <br>
+            <strong>Parent</strong> nodes are directly above <strong>children</strong>
+            nodes. <br>
+            <strong>Leaves</strong> have no children.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <p>A tree is not a linear data structure but a <mark>hierarchical</mark> data structure. It is composed of nodes.</p>
+        <p>Binary tree have no more than 2 children</p>
+        
+        <p>Trees are often used to organize hierarchical data, such as a file structure, or easily traverse through large amounts of information.</p>
+    </div>
+    <small class="text-muted">
+        This page was last accessed by <%- data.firstName %>  <%- data.lastName %> on <%- data.date%>
+    </small>
+<%- include('templates/footer') -%>

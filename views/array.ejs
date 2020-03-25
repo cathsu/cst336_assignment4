@@ -1,0 +1,34 @@
+<%- include('templates/header') -%>
+    <h2 class="jumbotron text-center">Array</h2>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/array1.png">
+            </div>
+            <div class="col-md-6">
+                <img src="img/array2.png">    
+            </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <p>Arrays are one of the most basic (and useful!) data structures.</p>
+        
+        <p>The image on the above right displays how arrays are declared in C. Although programming languages differ in how they declare an array, 
+        the basic concept remains the same.</p>
+        
+        <p>An array is a group of items that are stored in contigious memory. 
+        These collection of items are referenced by a single variable. 
+        As this collection of items are stored right next to each other, we can quickly 
+        access every item in the array. </p>
+        
+        <p>Let's look at the image on the above left. Think of an array like
+        a flight of stairs, where every stair tread has a value and location attached to 
+        it. To reference any of those values, we only have to reference 
+        the location of the stair tread. </p>
+
+    </div>
+    <small class="text-muted">
+        This page was last accessed by <%- data.firstName %>  <%- data.lastName %> on <%- data.date%>
+    </small>
+<%- include('templates/footer') -%>

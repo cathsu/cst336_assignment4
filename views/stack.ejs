@@ -1,0 +1,24 @@
+<%- include('templates/header') -%>
+    <h2 class="jumbotron text-center">Stack</h2>
+    <div class="text-center">
+        <figure class="figure">
+          <img src="img/stack1.png" alt="Stack">
+        </figure>
+    </div>
+    <div>
+        <p>A stack is a linear data structure with 3 basic operations:</p>
+            <ul id="stackOperations">
+                <li>push: add an item to the stack</li>
+                <li>pop: remove an item from the stack</li>
+                <li>top: return the top item from the stack</li>
+            </ul>
+        <p>These operations are performed based on either a <strong>LIFO (Last In, First Out) </strong>or <strong>
+            
+        FIFO (First In, First Out) </strong>order. </p>
+        
+        <p>There are two ways to implement a stack: with an array or a linked list!</p>
+    </div>
+    <small class="text-muted">
+        This page was last accessed by <%- data.firstName %>  <%- data.lastName %> on <%- data.date%>
+    </small>
+<%- include('templates/footer') -%>
